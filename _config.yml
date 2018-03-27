@@ -2,7 +2,7 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://yanlaijin.github.io/
+url: http://yanlaijin.github.io
 date_format: "ordinal"
 title: ylj
 subtitle: "小白的成神之路"
