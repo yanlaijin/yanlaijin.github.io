@@ -99,7 +99,7 @@ gitment:
 # https://github.com/gitalk/gitalk#install
 gitalk:
     owner: yanlaijin
-    repo: blog-comments
+    repo: gitalk
     clientID: 8efdaf221515f5bd9864
     clientSecret: c0463d379bc24a80fe33c63325605b8885915ecc
 # 在使用其它评论组件时可点击显示 Disqus
