@@ -1,9 +1,51 @@
 ---
 layout: post
-title: ç¬¬ä¸€ç¯‡åšå®¢
-categories: Java
-description: æˆ‘çš„ç¬¬ä¸€ç¯‡åšå®¢
-keywords: Java
+title: LinuxÏÂ°²×°zookeeper
+categories: Linux
+description: LinuxÏÂ°²×°zookeeper
+keywords: Linux
 ---
-æµ‹è¯•ç¬¬ä¸€ç¯‡åšå®¢
+#LinuxÏÂ°²×°zookeeper
+##×¼±¸¹¤×÷
+ÔÚ°²×°zookeeperÖ®Ç°£¬Ê×ÏÈĞèÒª°²×°JDK»·¾³£¬¾ßÌå²Ù×÷Çë¿´..
+##°²×°
+Ê×ÏÈ½øÈëºÏÊÊµÄ°²×°Ä¿Â¼£º
+`cd /usr/local/`
+ÏÂÔØzookeeper°²×°°ü£º
+`wget -c https://mirrors.tuna.tsinghua.edu.cn/apache/zookeeper/zookeeper-3.4.11/zookeeper-3.4.11.tar.gz`
+½âÑ¹Ëõ£º
+`tar -xzvf zookeeper-3.4.11.tar.gz`
+½øÈë½âÑ¹ºóµÄÄ¿Â¼£¬·Ö±ğ´´½¨dataºÍlogsÎÄ¼ş¼Ğ:
+```
+cd zookeeper-3.4.11
+mkdir data
+mkdir logs
+```
+½øÈëconfÄ¿Â¼£¬±à¼­zoo.cfgÎÄ¼ş£º
+```
+cd conf/
+cp zoo_sample.cfg zoo.cfg
+vim zoo.cfg
+```
+¼ÓÈëÏÂÃæ´úÂë£º
+```
+dataDir=/usr/local/zookeeper-3.4.11/data
+dataLogDir=/usr/local/zookeeper-3.4.11/logs
+```
+¸ã¶¨£¬½øÈëbinÄ¿Â¼£¬Æô¶¯zookeeper£º
+`./zkServer.sh start`
+ÏÔÊ¾ÈçÏÂ£º
+![Alt text](./zookeeperÆô¶¯.png)
+²é¿´ zkServer.sh status ×´Ì¬ºóÏÔÊ¾ÈçÏÂ£º
+![Alt text](./1522638391605.png)
+²é¿´zookeeper.outÎÄ¼şÏÔÊ¾ÈçÏÂ£º
+`nohup: failed to run command `java': No such file or directory`
+ÍøÉÏ²éÁËÖÚ¶à×ÊÁÏ£¬·¢ÏÖÊÇ.zkServer.shÎÄ¼ş¶ÁÈ¡²»µ½jdk°²×°Ä¿Â¼¡£
+½â¾ö·½·¨£º
+ÔÚ.zkServer.shÎÄ¼ş¿ªÍ·Ìí¼ÓÈçÏÂ´úÂë£º
+```
+export JAVA_HOME=/usr/lib/jdk  
+export PATH=$JAVA_HOME/bin:$PATH
+```
+ÖØÆôzookeeper,ÎÊÌâÍêÃÀ½â¾ö¡£
 
