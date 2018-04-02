@@ -35,9 +35,7 @@ dataLogDir=/usr/local/zookeeper-3.4.11/logs
 搞定，进入bin目录，启动zookeeper：
 `./zkServer.sh start`
 显示如下：
-![Alt text](./zookeeper启动.png)
 查看 zkServer.sh status 状态后显示如下：
-![Alt text](./1522638391605.png)
 查看zookeeper.out文件显示如下：
 `nohup: failed to run command `java': No such file or directory`
 网上查了众多资料，发现是.zkServer.sh文件读取不到jdk安装目录。
