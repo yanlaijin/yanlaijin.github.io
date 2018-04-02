@@ -44,10 +44,14 @@ dataLogDir=/usr/local/zookeeper-3.4.11/logs
 ```
 ./zkServer.sh start
 ```
-显示如下：<br/>
-![image](https://github.com/yanlaijin/yanlaijin.github.io/blob/master/images/posts/zookeeper-start.png)<br/>
-查看zkServer.sh status 状态后显示如下：<br/>
-![image](https://github.com/yanlaijin/yanlaijin.github.io/blob/master/images/posts/zookeeper-status.png)<br/>
+显示如下：
+
+![image](/images/posts/zookeeper-start.png)
+
+查看zkServer.sh status 状态后显示如下：
+
+![image](/images/posts/zookeeper-status.png)
+
 查看zookeeper.out文件显示如下：
 ```
 nohup: failed to run command `java': No such file or directory
