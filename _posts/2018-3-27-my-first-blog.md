@@ -1,11 +1,9 @@
 ---
 layout: post
-title: LinuxÏÂ°²×°zookeeper
-categories: Linux
-description: LinuxÏÂ°²×°zookeeper
-keywords: Linux
+title: ç¬¬ä¸€ç¯‡åšå®¢
+categories: Java
+description: æˆ‘çš„ç¬¬ä¸€ç¯‡åšå®¢
+keywords: Java
 ---
-#LinuxÏÂ°²×°zookeeper
-
-ÖØÆôzookeeper,ÎÊÌâÍêÃÀ½â¾ö¡£
+æµ‹è¯•ç¬¬ä¸€ç¯‡åšå®¢
 
