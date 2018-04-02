@@ -6,7 +6,7 @@ description: Linux下安装zookeeper
 keywords: Linux
 ---
 
-最近在学习分布式应用环境的搭建，在远程linux中安装zookeeper时遇到一些问题，所有记录下这次安装过程。
+  最近在学习分布式应用环境的搭建，在远程linux中安装zookeeper时遇到一些问题，所有记录下这次安装过程。
 
 准备工作
 --
