@@ -46,11 +46,11 @@ dataLogDir=/usr/local/zookeeper-3.4.11/logs
 ```
 显示如下：
 
-![image](/images/posts/zookeeper-start.png)
+![](/images/posts/zookeeper-start.png)
 
 查看zkServer.sh status 状态后显示如下：
 
-![image](/images/posts/zookeeper-status.png)
+![](/images/posts/zookeeper-status.png)
 
 查看zookeeper.out文件显示如下：
 ```
