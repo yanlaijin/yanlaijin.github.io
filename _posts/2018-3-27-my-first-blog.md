@@ -5,6 +5,7 @@ categories: Linux
 description: Linux下安装zookeeper
 keywords: Linux
 ---
+
 #Linux下安装zookeeper
 ##准备工作
 在安装zookeeper之前，首先需要安装JDK环境，具体操作请看..
